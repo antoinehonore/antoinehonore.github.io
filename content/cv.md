@@ -6,4 +6,4 @@ aliases = ["cv"]
   name = "Antoine"
 +++
 
-My CV is available in pdf [here](/antoine/cv.pdf). An industry version is available [here](/antoine/cv_industry.pdf)
+My academic CV is available in pdf [here](/antoine/cv.pdf). A version formatted for industry is available [here](/antoine/cv_industry.pdf).
