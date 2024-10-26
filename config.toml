@@ -161,7 +161,7 @@ disableHugoGeneratorInject = false
   [params.portrait]
     path     = "/antoine/pp_small.png"
     alt      = "Portrait"
-    maxWidth = "50px"
+    maxWidth = "500px"
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
   # Addon: Commento
