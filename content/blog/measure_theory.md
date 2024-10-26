@@ -20,19 +20,19 @@ type = "notes"
 
 ## lim sup of sum of arbitrary real sequences
 
-Let \((x_n)_{n\in\mathbb{N}}\) and  $(y_n)\_{n\in\mathbb{N}}$ two series in $[-\infty, +\infty]$.
+Let \((x_n)_{n\in\mathbb{N}}\) and  \((y_n)_{n\in\mathbb{N}}\) two series in $[-\infty, +\infty]\).
 Then,
 
-\begin{equation}
-\begin{align}
+\[
+\begin{aligned}
 &\forall\, n\in\mathbb{N},\,\forall t>n, \quad x_t \leq \sup_{t>n}(x_n) \, \text{and}\, y_t \leq \sup_{t>n}(y_t).\\
 \text{Therefore } &\forall n\in\mathbb{N},\,\forall\, t>n, \quad x_t + y_t \leq \sup_{t>n}(x_n) +  \sup_{t>n}(y_t)\\
 \text{therefore } &\forall n\in\mathbb{N},\,\forall t>n, \quad x_t + y_t \leq \inf_n\sup_{t>n}(x_n) +  \inf_n\sup_{t>n}(y_t)\\
 \text{therefore } &\forall\, n\in\mathbb{N}, \quad  \sup_{t>n}(x_t + y_t) \leq \inf_n\sup_{t>n}(x_n) +  \inf_n\sup_{t>n}(y_t)\\
 \text{therefore } &\inf_n\sup_{t>n}(x_t + y_t) \leq \inf_n\sup_{t>n}(x_n) +  \inf_n\sup_{t>n}(y_t)\\
 \text{i.e. } &\lim\sup (x_n + y_n) \leq \lim\sup (x_n) +  \lim\sup (y_n)
-\end{align}
-\end{equation}
+\end{aligned}
+\]
 
 ## lim sup of sum of one arbitrary and one converging real sequences
 Suppose that $\lim y_n = a<\infty$.
