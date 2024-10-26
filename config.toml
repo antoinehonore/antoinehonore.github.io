@@ -59,7 +59,8 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
-
+  math            = true
+  
   # Metadata mostly used in document's head
   # 
   description = "Antoine Honoré"
@@ -274,3 +275,15 @@ disableHugoGeneratorInject = false
     identifier = "cv"
     name       = "CV"
     url        = "cv/"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+
