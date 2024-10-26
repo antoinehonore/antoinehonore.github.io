@@ -59,7 +59,8 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
-
+  math            = true
+  
   # Metadata mostly used in document's head
   # 
   description = "Antoine Honoré"
@@ -284,6 +285,5 @@ disableHugoGeneratorInject = false
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
-[params]
-  math = true
+
 
