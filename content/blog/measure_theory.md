@@ -20,7 +20,7 @@ type = "notes"
 
 ## lim sup of sum of arbitrary real sequences
 
-Let $(x_n)\_{n\in\mathbb{N}}$ and  $(y_n)\_{n\in\mathbb{N}}$ two series in $[-\infty, +\infty]$.
+Let \((x_n)_{n\in\mathbb{N}}\) and  $(y_n)\_{n\in\mathbb{N}}$ two series in $[-\infty, +\infty]$.
 Then,
 
 \begin{equation}
