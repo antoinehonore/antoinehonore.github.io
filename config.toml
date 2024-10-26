@@ -1,5 +1,5 @@
 baseURL = "https://barketplace.github.io"
-title   = "Antoine's Homepage"
+title   = "Antoine Honoré"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -161,7 +161,7 @@ disableHugoGeneratorInject = false
   [params.portrait]
     path     = "/antoine/pp_small.png"
     alt      = "Portrait"
-    maxWidth = "50px"
+    maxWidth = "250px"
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
   # Addon: Commento
@@ -236,6 +236,7 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/antoine-honor%C3%A9-b718b6104/"
+    
   [[params.social]]
     name = "googlecholar"
     url  = "https://scholar.google.com/citations?user=70n2fQMAAAAJ"
