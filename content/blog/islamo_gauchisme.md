@@ -1,5 +1,5 @@
 +++
-categories = ["Hugo"]
+categories = ["article"]
 author = "Antoine Honoré"
 date = "2022-06-28"
 description = "Le concept d'islamo-gauchisme"

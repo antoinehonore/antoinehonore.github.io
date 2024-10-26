@@ -1,5 +1,5 @@
 +++
-categories = ["Hugo"]
+categories = ["Poème"]
 date = "2024-08-28"
 description = "Fikadelle"
 featured = "pic01.jpg"
@@ -7,7 +7,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "Fikadelle"
-slug = ""
+slug = "Fikadelle"
 type = "post"
 +++
 
