@@ -126,7 +126,7 @@ disableHugoGeneratorInject = false
   [params.footer]
     trademark = 2024
     rss = false
-    copyright = false
+    copyright = true
     author = true
 
     topText = []
@@ -222,24 +222,27 @@ disableHugoGeneratorInject = false
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   #
   [[params.social]]
-    name = "twitter"
-    url  = "https://x.com/HonoAntoinee"
-
+    name = "googlescholar"
+    url  = "https://scholar.google.com/citations?user=70n2fQMAAAAJ"
+    
   [[params.social]]
-    name = "email"
-    url  = "mailto:antoinehonor@gmail.com"
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/antoine-honor%C3%A9-b718b6104/"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/barketplace"
 
   [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/antoine-honor%C3%A9-b718b6104/"
-    
+    name = "gitlab"
+    url  = "https://gitlab.com/antoinehonore"
+
   [[params.social]]
-    name = "googlecholar"
-    url  = "https://scholar.google.com/citations?user=70n2fQMAAAAJ"
+    name = "email"
+    url  = "mailto:antoinehonor@gmail.com"
+
+    
+
 
 [languages]
   [languages.en]

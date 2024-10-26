@@ -7,7 +7,7 @@ featured = "pic01.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "Le concept d'islamo-gauchisme"
+title = "Islamo-gauchisme"
 slug = "Le concept d'islamo-gauchisme"
 type = "post"
 +++
