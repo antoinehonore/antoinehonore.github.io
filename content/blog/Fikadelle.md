@@ -7,7 +7,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "Fikadelle"
-slug = "Fikadelle"
+slug = ""
 type = "post"
 +++
 

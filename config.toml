@@ -62,13 +62,13 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Antoine Honoré's homepage"
+  description = "Antoine Honoré"
   keywords = ""
   images = [""]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Antoine Honoré"
+  #homeSubtitle = "I am currently a WASP postdoc fellow in the research group of Prof. Ming Xiao, in collaboration with Prof. Volker Lauschke at the department of Physiology and Pharmacology at Karolinska Institutet."
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -158,10 +158,10 @@ disableHugoGeneratorInject = false
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   # Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+  [params.portrait]
+    path     = "/antoine/pp_small.png"
+    alt      = "Portrait"
+    maxWidth = "50px"
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
   # Addon: Commento
@@ -174,8 +174,8 @@ disableHugoGeneratorInject = false
   # A better internet.
   # Uncomment this to enable Commento.
   #
-  [params.commento]
-    url = ""
+  # [params.commento]
+  #   url = ""
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
   # Addon: Utteranc.es
@@ -258,10 +258,10 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+  #[[menu.main]]
+  #  identifier = "posts"
+  #  name       = "Posts"
+  #  url        = "posts/"
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
