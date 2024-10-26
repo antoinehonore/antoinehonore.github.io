@@ -1,5 +1,6 @@
 +++
 categories = ["Hugo"]
+author = "Antoine Honoré"
 date = "2022-06-28"
 description = "Le concept d'islamo-gauchisme"
 featured = "pic01.jpg"

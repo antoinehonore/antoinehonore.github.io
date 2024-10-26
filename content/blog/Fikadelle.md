@@ -11,8 +11,6 @@ slug = "Fikadelle"
 type = "post"
 +++
 
-# Fikadelle
-
 Brillant, il unit d'amour la terre et le ciel.
 Place au soleil exquis qui peuple l’air de lumière.
 Il sonne le réveil, brûle l'après-midi et peint le soir couleur de miel.
