@@ -1,5 +1,5 @@
 baseURL = "https://barketplace.github.io"
-title   = "Antoine's Homepage"
+title   = "Antoine Honoré"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -161,7 +161,7 @@ disableHugoGeneratorInject = false
   [params.portrait]
     path     = "/antoine/pp_small.png"
     alt      = "Portrait"
-    maxWidth = "500px"
+    maxWidth = "250px"
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
   # Addon: Commento
