@@ -56,7 +56,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
-          hugo new site site && cd site && hugo \
+          hugo --source themes/hello-friend-ng/exampleSite \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
