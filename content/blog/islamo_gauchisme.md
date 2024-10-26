@@ -1,12 +1,17 @@
-```
----
-title: "Islamo-gauchisme"
-output:
-  html_document:
-    toc: yes
-pagetitle: Islamo-gauchisme
----
-```
++++
+categories = ["Hugo"]
+date = "2022-06-28"
+description = "Le concept d'islamo-gauchisme"
+featured = "pic01.jpg"
+featuredalt = ""
+featuredpath = "date"
+linktitle = ""
+title = "Le concept d'islamo-gauchisme"
+slug = "Le concept d'islamo-gauchisme"
+type = "post"
++++
+
+
 *Le terme « islamo-gauchisme » a fait son apparition en France en 2004 dans un article du sociologue Pierre-André Taguieff [1]. Par ce terme, Taguieff désigne la propension de la gauche à se placer passionnellement aux côtés d’islamistes pour lutter contre des ennemis communs : le capitaliste mondialisé et l’impérialisme. Le sociologue utilise comme exemples les rassemblements de soutien à la cause palestinienne. Il dénonce le fait qu’au sein de ces mouvements : « des islamistes radicaux portés par le fanatisme anti-occidental et des nouveaux gauchistes s’efforç[e]nt de réactiver l’utopie communiste ». Regardons de plus près l’une des sources que cite Taguieff pour justifier ce terme d’islamo-gauchisme.*
 
 # « Le prophète et le prolétariat »

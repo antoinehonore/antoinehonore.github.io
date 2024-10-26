@@ -1,6 +1,17 @@
-# Fikadelle
++++
+categories = ["Hugo"]
+date = "2024-08-28"
+description = "Fikadelle"
+featured = "pic01.jpg"
+featuredalt = ""
+featuredpath = "date"
+linktitle = ""
+title = "Fikadelle"
+slug = "Fikadelle"
+type = "post"
++++
 
-FIKADELLE
+# Fikadelle
 
 Brillant, il unit d'amour la terre et le ciel.
 Place au soleil exquis qui peuple l’air de lumière.
