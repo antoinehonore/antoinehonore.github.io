@@ -68,7 +68,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  #homeSubtitle = "I am currently a WASP postdoc fellow in the research group of Prof. Ming Xiao, in collaboration with Prof. Volker Lauschke at the department of Physiology and Pharmacology at Karolinska Institutet."
+  homeSubtitle = "PhD | Postdoc | AI for Healthcare"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
