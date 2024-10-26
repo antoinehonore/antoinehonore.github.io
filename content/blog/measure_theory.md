@@ -10,6 +10,8 @@ linktitle = ""
 title = "First steps in measure theory"
 slug = ""
 type = "notes"
+[params]
+  math = true
 +++
 
 *The primary focus of my PhD did not turn out as theoretical as I would have hoped, and I never found time to dig very far into measure theory books. Keeping notes of the concepts I read about in this blog post will hopefully help me dedicate time to this. It might also help some interested readers in their journey through measure theory !*
