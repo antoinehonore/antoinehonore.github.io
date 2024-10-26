@@ -131,8 +131,6 @@ disableHugoGeneratorInject = false
 
     topText = []
     bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Template from <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
     ]
 
   # Colors for favicons
@@ -144,7 +142,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ Antoine Honoré"
+    logoText     = "Antoine Honoré"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -238,6 +236,9 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/antoine-honor%C3%A9-b718b6104/"
+  [[params.social]]
+    name = "googlecholar"
+    url  = "https://scholar.google.com/citations?user=70n2fQMAAAAJ"
 
 [languages]
   [languages.en]
@@ -261,3 +262,7 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "blog/"
