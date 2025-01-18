@@ -52,6 +52,38 @@ is drawn from the discrete distribution \((\pi_1,\dots,\pi_d)\) and is different
 Using a temperature softmax to replace the \(\arg\max\) operation leads to
 
 \[
-\forall i \in [d] p_i = \frac{e^{[\log\pi_i +g_i]/\tau}}{\sum_{j=1}^de^{[\log\pi_j +g_j]/\tau}}
+\forall i \in [d] p_i = \frac{e^{[\log\pi_i +g_i]/\tau}}{\sum_{j=1}^de^{[\log\pi_j +g_j]/\tau}}.
 \]
 
+One legit question is why use a Gumbel(0,1) distributions to sample i.i.d. \((g_i)_{i=1}^d\) ? Why not use another distribution, e.g. the beloved Normal distribution ?
+
+Let \(M=\arg\max_i p_i\). 
+This is because \(g_i\sim\) Gumbel(0,1) ensures that the maximum element is preserved, i.e.:
+\[
+p_M = \Pr(x_M+g_M \text{is the max} \forall i\in[d]).
+\]
+
+*Proof:*
+Let \(\mathcal{P} = \Pr(x_M+g_M \text{is the max} \forall i\in[d])\).
+Let \(g_i\sim\) Gumbel(0,1).
+
+\[
+\begin{aligned}
+	\mathcal{P} &= \int \Pr(\forall i\in[d] x_i+g_i<x_M + g_M)\Pr(g_M)dg_M\\
+				&= \int \prod_{i\neqM} e^{-e^{g_M+x_M-x_i}}e^{-g_M}e^{-e^{-g_M}}dg_M\\
+				&= \int \prod_i e^{-e^{g_M+x_M-x_i}}e^{-g_M}dg_M\\
+				&= \int \prod_i e^{-e^{g_M}e^{-x_M}(\sum_i e^{x_i})}e^{-g_M}dg_M
+\end{aligned}
+\]
+With a change of variable \(t=e^{-g_M}\), we have \(e^{-g_M}dg_M = -dt\), thus:
+
+\[
+\begin{aligned}
+\mathcal{P} &= \int_0&\infty e^{-\frac{\sum_ie^{x_i}}{e^{x_M}}t}\\
+&=\frac{e^{x_M}}{\sum_ie^{x_i}} = p_M
+\end{aligned}
+\]
+where concludes the proof.
+
+Therefore the Gumbel(0,1) distribution is required because we chose to approach the differentiable sampling problem using additive noise to the log-weights of the distributions we want to sample from. 
+For this approach to work, the distribution of the noise must not modify the distribution of the maximum of the log-weights with additive noise. Gumbel(0,1) is a distribution with this property. For once, the Normal distribution is not.
