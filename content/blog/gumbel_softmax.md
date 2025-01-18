@@ -77,7 +77,7 @@ With a change of variable \(t=e^{-g_M}\), we have \(e^{-g_M}dg_M = -dt\), thus:
 
 \[
 \begin{aligned}
-\mathcal{P} &= \int_0&\infty e^{-\frac{\sum_ie^{x_i}}{e^{x_M}}t}\\
+\mathcal{P} &= \int_0^\infty e^{-\frac{\sum_ie^{x_i}}{e^{x_M}}t}\\
 &=\frac{e^{x_M}}{\sum_ie^{x_i}} = p_M
 \end{aligned}
 \]
