@@ -14,7 +14,10 @@ type = "notes"
   math = true
 +++
 
-I usually understand the Gumbel softmax (GS) operation as a replacement for softmax, differentiable, and that given an arbitrary input in \(d\) dimensions, yields a one-hot encoded vector, instead of an arbitrary discrete distribution.
+I usually understand the Gumbel-Softmax (GS) operation as a replacement for softmax which returns a one-hot encoded output instead of a proper discrete distribution.
+In addition GS does that in way that is differentiable wrt to the input.
+
+
 Just to recap: let \( x\in \mathbb{R}^d \) we have
 
 \[
@@ -37,6 +40,7 @@ where \(z=\text{one\_hot}(\arg\max p_i)\) is a non-differentiable discretization
 This means that the output is the discretization, and the gradient  with respect to the input is the gradient of the softmax operation with respect to its input.
 Problem solved then, we have the operation we wanted.
 
+# Gumbel-softmax also allows to sample in a differentiable way
 This is only part of the story. 
 The Gumbel-softmax operation is a way to *sample* one-hot encoded vectors in \(d\) dimensions that are differentiable wrt to the weights of the discrete distributions.
 
@@ -53,6 +57,7 @@ Using a temperature softmax to replace the \(\arg\max\) operation leads to
 \forall i \in [d] p_i = \frac{e^{[\log\pi_i +g_i]/\tau}}{\sum_{j=1}^de^{[\log\pi_j +g_j]/\tau}}.
 \]
 
+# Why Gumbel(0,1) ?
 One legit question here is why use a Gumbel(0,1) distributions to sample i.i.d. \((g_i)_{i=1}^d\) ? Why not use another distribution, e.g. the beloved Normal distribution ?
 
 Let \(M=\arg\max_i p_i\). 
