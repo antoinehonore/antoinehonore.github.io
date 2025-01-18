@@ -101,4 +101,4 @@ For this approach to work, the distribution of the noise must not modify the dis
 
 - A nice blog with the derivation in the last section: https://mukappalambda.github.io/readings/gumbel_softmax/#gumbel-reparameterization-trick
 
-- The pytorch implementation is a good place to find a Python implementation: https://pytorch.org/docs/stable/generated/torch.nn.functional.gumbel_softmax.html 
+- The pytorch package is a good place to find a Python implementation: https://pytorch.org/docs/stable/generated/torch.nn.functional.gumbel_softmax.html 
