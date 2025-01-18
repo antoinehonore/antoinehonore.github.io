@@ -19,12 +19,12 @@ Just to recap: let \( x\in \mathbb{R}^d \) we have
 
 \[
 \begin{aligned}
-	\forall i\in [d], p_i=\text{Softmax}(x/\tau)_i=\frac{e^{x_i/\tau}}{\sum_{j=1}^de^{x_j/\tau}},
+	\forall i\in [d],\quad p_i=\text{Softmax}(x/\tau)_i=\frac{e^{x_i/\tau}}{\sum_{j=1}^de^{x_j/\tau}},
 \end{aligned}
 \]
 where \(/\tau>0\) is a temperature parameter.
-This means that \(\forall i\in [d] p_i\leq 0\) and \(\sum_i p_i=1\), i.e. \((p_1,\dots,p_d)\) defines a proper discrete distribution.
-The problem being that sometimes we are interested in an operation on \(x\in\mathbb{R}^d\) giving discrete variables: \(\forall i\in[d] p_i\in\{0,1\}\).
+This means that \(\forall i\in [d]\quad p_i\leq 0\) and \(\sum_i p_i=1\), i.e. \((p_1,\dots,p_d)\) defines a proper discrete distribution.
+The problem being that sometimes we are interested in an operation on \(x\in\mathbb{R}^d\) giving discrete variables: \(\forall i\in[d]\quad p_i\in\{0,1\}\).
 
 At first I thought that Gumbel-Softmax was a simple trick:
 
@@ -47,15 +47,13 @@ A sample \(z\in\{0,1\}^d\) defined as:
 \[
 	z = \text{one\_hot}(\arg\max_i [\log \pi_i +g_i]),
 \]
-
 is drawn from the discrete distribution \((\pi_1,\dots,\pi_d)\) and is differentiable wrt \pi.
 Using a temperature softmax to replace the \(\arg\max\) operation leads to
-
 \[
 \forall i \in [d] p_i = \frac{e^{[\log\pi_i +g_i]/\tau}}{\sum_{j=1}^de^{[\log\pi_j +g_j]/\tau}}.
 \]
 
-One legit question is why use a Gumbel(0,1) distributions to sample i.i.d. \((g_i)_{i=1}^d\) ? Why not use another distribution, e.g. the beloved Normal distribution ?
+One legit question here is why use a Gumbel(0,1) distributions to sample i.i.d. \((g_i)_{i=1}^d\) ? Why not use another distribution, e.g. the beloved Normal distribution ?
 
 Let \(M=\arg\max_i p_i\). 
 This is because \(g_i\sim\) Gumbel(0,1) ensures that the maximum element is preserved, i.e.:
@@ -83,7 +81,7 @@ With a change of variable \(t=e^{-g_M}\), we have \(e^{-g_M}dg_M = -dt\), thus:
 &=\frac{e^{x_M}}{\sum_ie^{x_i}} = p_M
 \end{aligned}
 \]
-where concludes the proof.
+which concludes the proof.\qedsymbol{}
 
 Therefore the Gumbel(0,1) distribution is required because we chose to approach the differentiable sampling problem using additive noise to the log-weights of the distributions we want to sample from. 
 For this approach to work, the distribution of the noise must not modify the distribution of the maximum of the log-weights with additive noise. Gumbel(0,1) is a distribution with this property. For once, the Normal distribution is not.
