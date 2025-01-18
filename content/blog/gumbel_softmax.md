@@ -17,7 +17,6 @@ type = "notes"
 I usually understand the Gumbel-Softmax (GS) operation as a replacement for softmax which returns a one-hot encoded output instead of a proper discrete distribution.
 In addition GS does that in way that is differentiable wrt to the input.
 
-
 Just to recap: let \( x\in \mathbb{R}^d \) we have
 
 \[
@@ -27,10 +26,9 @@ Just to recap: let \( x\in \mathbb{R}^d \) we have
 \]
 where \(\tau>0\) is a temperature parameter.
 This means that \(\forall i\in [d]\quad p_i\leq 0\) and \(\sum_i p_i=1\), i.e. \((p_1,\dots,p_d)\) defines a proper discrete distribution.
-The problem being that sometimes we are interested in an operation on \(x\in\mathbb{R}^d\) giving discrete variables: \(\forall i\in[d]\quad p_i\in\{0,1\}\).
+Here the issue is that sometimes, we are interested in an operation on \(x\in\mathbb{R}^d\) giving discrete variables: \(\forall i\in[d]\quad p_i\in\{0,1\}\), which is not the case here.
 
 At first I thought that Gumbel-Softmax was a simple trick:
-
 \[
 \begin{aligned}
 	y = z - p^{(cut)} + p,
