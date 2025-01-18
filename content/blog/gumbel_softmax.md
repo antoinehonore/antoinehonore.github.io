@@ -49,7 +49,7 @@ A sample \(z\in\{0,1\}^d\) defined as:
 \[
 	z = \text{one\_hot}(\arg\max_i [\log \pi_i +g_i]),
 \]
-is drawn from the discrete distribution \((\pi_1,\dots,\pi_d)\) and is differentiable wrt \pi.
+is drawn from the discrete distribution \((\pi_1,\dots,\pi_d)\) and is differentiable wrt \(\pi\).
 Using a temperature softmax to replace the \(\arg\max\) operation leads to
 \[
 \forall i \in [d] p_i = \frac{e^{[\log\pi_i +g_i]/\tau}}{\sum_{j=1}^de^{[\log\pi_j +g_j]/\tau}}.
