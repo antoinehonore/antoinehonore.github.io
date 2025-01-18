@@ -38,10 +38,10 @@ where \(z=\text{one_hot}(\arg\max p_i)\) is a non-differentiable discretization 
 This means that the output is the discretization, and the gradient  with respect to the input is the gradient of the softmax operation with respect to its input.
 Problem solved then, we have the operation we wanted.
 
-# Gumbel-softmax also allows to sample in a differentiable way
+# Gumbel-softmax also allows to sample
 This is only part of the story. 
 The Gumbel-softmax operation is a way to *sample* one-hot encoded vectors in \(d\) dimensions that are differentiable wrt to the weights of the discrete distributions.
-
+Let's see how this is done.
 Let \(\pi\in\Delta^{d-1}\) denote a discrete probability distribution. 
 Let \(\forall i\in [d] g_i\) sampled from the Gumbel(0,1) distribution.
 
@@ -88,3 +88,9 @@ which concludes the proof.\qedsymbol{}
 
 Therefore the Gumbel(0,1) distribution is required because we chose to approach the differentiable sampling problem using additive noise to the log-weights of the distributions we want to sample from. 
 For this approach to work, the distribution of the noise must not modify the distribution of the maximum of the log-weights with additive noise. Gumbel(0,1) is a distribution with this property. For once, the Normal distribution is not.
+
+
+
+# References.
+- The original paper: https://arxiv.org/abs/1611.01144
+- A blog with the derivation in the last section: https://mukappalambda.github.io/readings/gumbel_softmax/#gumbel-reparameterization-trick
