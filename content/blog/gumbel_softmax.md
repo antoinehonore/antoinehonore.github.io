@@ -25,7 +25,7 @@ Just to recap: let \( x\in \mathbb{R}^d \) we have
 	\forall i\in [d],\quad p_i=\text{Softmax}(x/\tau)_i=\frac{e^{x_i/\tau}}{\sum_{j=1}^de^{x_j/\tau}},
 \end{aligned}
 \]
-where \(/\tau>0\) is a temperature parameter.
+where \(\tau>0\) is a temperature parameter.
 This means that \(\forall i\in [d]\quad p_i\leq 0\) and \(\sum_i p_i=1\), i.e. \((p_1,\dots,p_d)\) defines a proper discrete distribution.
 The problem being that sometimes we are interested in an operation on \(x\in\mathbb{R}^d\) giving discrete variables: \(\forall i\in[d]\quad p_i\in\{0,1\}\).
 
@@ -36,7 +36,7 @@ At first I thought that Gumbel-Softmax was a simple trick:
 	y = z - p^{(cut)} + p,
 \end{aligned}
 \]
-where \(z=\text{one\_hot}(\arg\max p_i)\) is a non-differentiable discretization of \(p\), and \(p^{(cut)}\) is the vector \(p\) that does not propagate gradient wrt the input \(x\).
+where \(z=\text{one_hot}(\arg\max p_i)\) is a non-differentiable discretization of \(p\), and \(p^{(cut)}\) is the vector \(p\) that does not propagate gradient wrt the input \(x\).
 This means that the output is the discretization, and the gradient  with respect to the input is the gradient of the softmax operation with respect to its input.
 Problem solved then, we have the operation we wanted.
 
