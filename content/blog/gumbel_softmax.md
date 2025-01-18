@@ -2,12 +2,12 @@
 categories = ["notes"]
 author = "Antoine Honoré"
 date = "2022-03-22"
-description = "Gumbel softmax"
+description = "Gumbel-Softmax"
 featured = "pic01.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "Gumbel softmax"
+title = "Gumbel-Softmax"
 slug = ""
 type = "notes"
 [params]
