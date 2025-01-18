@@ -58,8 +58,11 @@ Using a temperature softmax to replace the \(\arg\max\) operation leads to
 # Why Gumbel(0,1) ?
 One legit question here is why use a Gumbel(0,1) distribution to sample i.i.d. \((g_i)_{i=1}^d\) ? Why not use another distribution, e.g. the beloved Normal distribution ?
 
+This is because \(g_i\sim\) Gumbel(0,1) i.i.d. ensures that the maximum element is preserved after adding the noise g_i. 
+
+Let's see this in details.
 Let \(M=\arg\max_i p_i\). 
-This is because \(g_i\sim\) Gumbel(0,1) i.i.d. ensures that the maximum element is preserved, i.e.:
+Then we have that
 \[
 p_M = \Pr(x_M+g_M \text{ is the max } \forall i\in[d]).
 \]
