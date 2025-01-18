@@ -71,11 +71,12 @@ Let \(g_i\sim\) Gumbel(0,1).
 \[
 \begin{aligned}
 	\mathcal{P} &= \int \Pr(\forall i\in[d] x_i+g_i<x_M + g_M)\Pr(g_M)dg_M\\
-				&= \int \prod_{i\neqM} e^{-e^{g_M+x_M-x_i}}e^{-g_M}e^{-e^{-g_M}}dg_M\\
+				&= \int \prod_{i\neq M} e^{-e^{g_M+x_M-x_i}}e^{-g_M}e^{-e^{-g_M}}dg_M\\
 				&= \int \prod_i e^{-e^{g_M+x_M-x_i}}e^{-g_M}dg_M\\
 				&= \int \prod_i e^{-e^{g_M}e^{-x_M}(\sum_i e^{x_i})}e^{-g_M}dg_M
 \end{aligned}
 \]
+
 With a change of variable \(t=e^{-g_M}\), we have \(e^{-g_M}dg_M = -dt\), thus:
 
 \[
