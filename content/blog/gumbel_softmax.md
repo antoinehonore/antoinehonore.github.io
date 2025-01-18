@@ -84,7 +84,7 @@ With a change of variable \(t=e^{-g_M}\), we have \(e^{-g_M}dg_M = -dt\), thus:
 &=\frac{e^{x_M}}{\sum_ie^{x_i}} = p_M
 \end{aligned}
 \]
-which concludes the proof.\qedsymbol{}
+which concludes the proof.
 
 Therefore the Gumbel(0,1) distribution is required because we chose to approach the differentiable sampling problem using additive noise to the log-weights of the distributions we want to sample from. 
 For this approach to work, the distribution of the noise must not modify the distribution of the maximum of the log-weights with additive noise. Gumbel(0,1) is a distribution with this property. For once, the Normal distribution is not.
