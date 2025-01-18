@@ -92,5 +92,9 @@ For this approach to work, the distribution of the noise must not modify the dis
 
 
 # References.
-- The original paper: https://arxiv.org/abs/1611.01144
-- A blog with the derivation in the last section: https://mukappalambda.github.io/readings/gumbel_softmax/#gumbel-reparameterization-trick
+
+- It turns out this was discovered simultaneously by two groups: https://arxiv.org/abs/1611.00712 (they use the name "concrete distribution") and https://arxiv.org/abs/1611.01144
+
+- A nice blog with the derivation in the last section: https://mukappalambda.github.io/readings/gumbel_softmax/#gumbel-reparameterization-trick
+
+- The pytorch implementation is a good place to find a Python implementation: https://pytorch.org/docs/stable/generated/torch.nn.functional.gumbel_softmax.html 
