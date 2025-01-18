@@ -61,11 +61,11 @@ One legit question here is why use a Gumbel(0,1) distribution to sample i.i.d. \
 Let \(M=\arg\max_i p_i\). 
 This is because \(g_i\sim\) Gumbel(0,1) ensures that the maximum element is preserved, i.e.:
 \[
-p_M = \Pr(x_M+g_M \text{ is the max} \forall i\in[d]).
+p_M = \Pr(x_M+g_M \text{ is the max } \forall i\in[d]).
 \]
 
 *Proof:*
-Let \(\mathcal{P} = \Pr(x_M+g_M \text{ is the max} \forall i\in[d])\).
+Let \(\mathcal{P} = \Pr(x_M+g_M \text{ is the max } \forall i\in[d])\).
 Let \(g_i\sim\) Gumbel(0,1).
 
 \[
