@@ -43,11 +43,11 @@ This is only part of the story.
 The Gumbel-softmax operation is a way to *sample* one-hot encoded vectors in \(d\) dimensions that are differentiable wrt to the weights of the discrete distributions.
 Let's see how this is done.
 Let \(\pi\in\Delta^{d-1}\) denote a discrete probability distribution. 
-Let \(\forall i\in [d] g_i\sim \text{Gumbel}(0,1)\) i.i.d.
+Let \(\forall i\in [d]\quad g_i\sim \text{Gumbel}(0,1)\) i.i.d.
 
 A sample \(z\in\{0,1\}^d\) defined as:
 \[
-	z = \text{one\_hot}(\arg\max_i [\log \pi_i +g_i]),
+	z = \text{one_hot}(\arg\max_i [\log \pi_i +g_i]),
 \]
 is drawn from the discrete distribution \((\pi_1,\dots,\pi_d)\) and is differentiable wrt \(\pi\).
 Using a temperature softmax to replace the \(\arg\max\) operation leads to
