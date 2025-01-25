@@ -1,7 +1,7 @@
 +++
 categories = ["notes"]
 author = "Antoine Honoré"
-date = "2022-03-22"
+date = "2024-01-18"
 description = "Gumbel-Softmax"
 featured = "pic01.jpg"
 featuredalt = ""
