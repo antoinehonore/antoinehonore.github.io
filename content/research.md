@@ -23,6 +23,9 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 ## Variant effect predictions
 2023 - 2025
 
+## Data-driven non-linear state estimation
+2024
+
 ## Neored
 2023 - 
 
