@@ -133,7 +133,7 @@ disableHugoGeneratorInject = false
     topText = []
     bottomText = [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Template from <a href=\"https://github.com/rhazdon\">Github</a>"
+      "Template by <a href=\"https://github.com/rhazdon\">Rhazdon</a>"
     ]
 
   # Colors for favicons
@@ -243,9 +243,6 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "email"
     url  = "mailto:antoinehonor@gmail.com"
-
-    
-
 
 [languages]
   [languages.en]
