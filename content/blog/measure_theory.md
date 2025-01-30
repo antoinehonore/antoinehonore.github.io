@@ -7,7 +7,7 @@ featured = "pic01.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "First steps in measure theory"
+title = "(Notes) Measure theory"
 slug = ""
 type = "notes"
 [params]
