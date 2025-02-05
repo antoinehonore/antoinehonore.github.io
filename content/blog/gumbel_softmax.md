@@ -25,7 +25,7 @@ Just to recap: let \( x\in \mathbb{R}^d \) we have
 \end{aligned}
 \]
 where \(\tau>0\) is a temperature parameter.
-This means that \(\forall i\in [d]\quad p_i\leq 0\) and \(\sum_i p_i=1\), i.e. \((p_1,\dots,p_d)\) defines a proper discrete distribution.
+This means that \(\forall i\in [d]\quad p_i\geq 0\) and \(\sum_i p_i=1\), i.e. \((p_1,\dots,p_d)\) defines a proper discrete distribution.
 Here the issue is that sometimes, we are interested in an operation on \(x\in\mathbb{R}^d\) giving discrete variables: \(\forall i\in[d]\quad p_i\in\{0,1\}\), which is not the case here.
 
 At first I thought that Gumbel-Softmax was a simple trick:
