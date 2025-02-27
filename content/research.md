@@ -17,21 +17,23 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 
 # Projects
 
-## Neonatal sepsis detection
-2018 - 2023
+## On-going
 
-## Variant effect predictions
+### Variant effect predictions
 2023 - 2025
-
-## Data-driven non-linear state estimation
-2024
 
 ## Neored
 2023 - 
+
+## Finished
+### Neonatal sepsis detection
+2018 - 2023
+
+### Data-driven non-linear state estimation
+2024
 
 # Manuscript
 Unpublished works
 
 ## factorial HMM
-
 https://openreview.net/forum?id=aSTsODJ3On
