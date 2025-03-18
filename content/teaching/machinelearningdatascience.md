@@ -17,7 +17,8 @@ type = "teaching"
 My colleague Anubhab Ghosh and I developed the material for 9 tutorials on Machine learning and Data Science. 
 We gave the course in 2022 to master's student at KTH Royal Institute of Technology.
 
-| #  | Tutorial | Solution |                               | Other Material                         |
+
+| #  | Tutorial | Solution                  | Other Material                         |
 |----|----------|---------------------------|----------------------------------|
 | 1  | [Inference in linear models ](/tutorials/tutorial_1.pdf)        | [Solution](/tutorials/tutorial_1_solution.pdf)     | [Bishop](\bishoplink) Chap. 3   |
 | 2  | [Kernel substitution (GP)](/tutorials/tutorial_2.pdf)           | [Solution](/tutorials/tutorial_2_solution.pdf)     | [Bishop](\bishoplink) Chap. 6, 7 |
@@ -28,3 +29,5 @@ We gave the course in 2022 to master's student at KTH Royal Institute of Technol
 | 7  | [Graphical models (factor graphs)](/tutorials/tutorial_7.pdf)   | [Solution](/tutorials/tutorial_7_solution_scan.pdf) | [Bishop](\bishoplink) Chap. 8   |
 | 8  | [Graphical models (EM)](/tutorials/tutorial_8.pdf)              | [Solution](/tutorials/tutorial_8_solution.pdf)     | [Bishop](\bishoplink) Chap. 9   |
 | 9  | [Graphical models (VI)](/tutorials/tutorial_9.pdf)              | [Solution](/tutorials/tutorial_9_solution.pdf)     | [Bishop](\bishoplink) Chap. 10  |
+
+
