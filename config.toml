@@ -274,6 +274,10 @@ disableHugoGeneratorInject = false
     identifier = "cv"
     name       = "CV"
     url        = "cv/"
+      [[menu.main]]
+    identifier = "teaching"
+    name       = "Teaching"
+    url        = "teaching/"
 
 
 [markup]
