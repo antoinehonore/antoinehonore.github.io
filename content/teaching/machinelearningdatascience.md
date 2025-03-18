@@ -18,7 +18,7 @@ My colleague Anubhab Ghosh and I developed the material for 9 tutorials on Machi
 We gave the course in 2022 to master's student at KTH Royal Institute of Technology.
 
 | #  | Tutorial | Solution |                               | Other Material                         |
-|----|-------------------------------------|----------------------------------|
+|----|----------|---------------------------|----------------------------------|
 | 1  | [Inference in linear models ](/tutorials/tutorial_1.pdf)        |[Solution](/tutorials/tutorial_1_solution.pdf)     | [Bishop](\bishoplink) Chap. 3   |
 | 2  | [Kernel substitution (GP)](/tutorials/tutorial_2.pdf)           |[Solution](/tutorials/tutorial_2_solution.pdf)     | [Bishop](\bishoplink) Chap. 6, 7 |
 | 3  | [Kernel substitution (SVM)](/tutorials/tutorial_3.pdf)          |[Solution](/tutorials/tutorial_3_solution.pdf)     | [Bishop](\bishoplink) Chap. 6, 7 |
