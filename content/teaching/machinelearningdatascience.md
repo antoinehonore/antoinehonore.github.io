@@ -17,7 +17,7 @@ type = "teaching"
 
 | #  | Topic                               | Material                         |
 |----|-------------------------------------|----------------------------------|
-| 1  | Inference in linear models         | [Bishop](\bishoplink) Chap. 3   |
+| 1  |  [Inference in linear models ](/teaching/MachineLearningDataScienceHT22/Tutorials/tutorial_1.pdf)        | [Bishop](\bishoplink) Chap. 3   |
 | 2  | Kernel substitution (GP)           | [Bishop](\bishoplink) Chap. 6, 7 |
 | 3  | Kernel substitution (SVM)          | [Bishop](\bishoplink) Chap. 6, 7 |
 | 4  | Neural networks (intro)            | [DL Book](https://www.deeplearningbook.org) Chap. 5, 6 |
