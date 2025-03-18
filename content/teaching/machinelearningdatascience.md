@@ -14,6 +14,8 @@ type = "teaching"
   math = false
 +++
 
+My colleague Anubhab Ghosh and I developed the material for 9 tutorials on Machine learning and Data Science. 
+We gave the course in 2022 to master's student at KTH Royal Institute of Technology.
 
 | #  | Tutorial | Solution |                               | Other Material                         |
 |----|-------------------------------------|----------------------------------|
