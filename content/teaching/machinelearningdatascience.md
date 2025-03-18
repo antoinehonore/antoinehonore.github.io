@@ -14,10 +14,8 @@ type = "teaching"
   math = false
 +++
 
-My colleague Anubhab Ghosh and I developed the material for 9 tutorials on Machine learning and Data Science. 
+My colleague Anubhab Ghosh and I developed the material for 9 tutorials on Machine learning and Data Science ([zip](/tutorials/tutorials.zip), [latex][/tutorials/tutorials/latex.zip]). 
 We gave the course in 2022 to master's student at KTH Royal Institute of Technology.
-A zip file with the pdfs is available [here](/tutorials/tutorials.zip), the source latex is available [here][/tutorials/tutorials.zip].
-
 
 | #  | Tutorial | Solution                  | Other Material                         |
 |----|----------|---------------------------|----------------------------------|
