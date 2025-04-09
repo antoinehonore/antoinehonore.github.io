@@ -125,10 +125,10 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = 
-    rss = false
-    copyright = false
-    author = false
+    #trademark = 2025
+    #rss = false
+    #copyright = false
+    #author = false
 
     topText = []
     bottomText = [
@@ -270,7 +270,7 @@ disableHugoGeneratorInject = false
     identifier = "cv"
     name       = "CV"
     url        = "cv/"
-      [[menu.main]]
+  [[menu.main]]
     identifier = "teaching"
     name       = "Teaching"
     url        = "teaching/"
