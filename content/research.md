@@ -25,14 +25,13 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 ## Neored
 2023 - 
 
-## ITNet
-Title: ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms
+## ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms
+
+[[paper (submitted to FUSION 2025)]()], [[code](https://github.com/antoinehonore/itnet)]'
 
 Abstract: 
 
 Timeseries regression from multimodal data is a difficult task when modalities have missing data or different sampling frequencies. Current approaches such as feature fusion often rely on interpolation and might result in either too simplistic or  overly computationally expensive algorithms. We propose ITNet, an end-to-end trainable multihead causal cross-attention model adapted for irregularly sampled multimodal timeseries data. We show the performances of the model on synthetic data from 2d linear state-space models with a varying number of modalities, varying data missingness and varying signal-to-measurement-noise ratio (SMNR). We compare with Kalman filters exploiting either one or all available modalities. Provided a sufficient number of modalities and high enough SMNR, ITNet outperforms the closed form Kalman Filter. Importantly, our model achieves these results without assuming knowledge of the state transition matrix. This is of particular importance towards the use of ITNet for practical cases.
-
-[[paper (submitted to FUSION 2025)]()], [[code](https://github.com/antoinehonore/itnet)]'
 
 ## Finished
 ### Neonatal sepsis detection
@@ -41,6 +40,8 @@ Timeseries regression from multimodal data is a difficult task when modalities h
 
 ### DANSE: Data-driven Non-linear State Estimation of Model-free Process in Unsupervised Bayesian Setup 
 
+[[paper](https://ieeexplore.ieee.org/document/10289946)], [[code](https://github.com/anubhabghosh/danse)]
+
 Title: 
 
 Abstract: 
@@ -48,12 +49,12 @@ Abstract:
 We propose DANSE – a data-driven non-linear state estimation method. DANSE provides a closed-form posterior of the state of a model-free process, given linear measurements of the state in a Bayesian setup, like the celebrated Kalman filter (KF). Non-linear dynamics of the state are captured by data-driven recurrent neural networks (RNNs). The training of DANSE combines maximum-likelihood and gradient-descent in an unsupervised framework, i.e. only measurement data and no process data are required. Using simulated linear and non-linear process models, we demonstrate that DANSE - without knowledge of the process model - provides competitive performance against model-based approaches such as KF, unscented KF (UKF), extended KF (EKF), and a hybrid approach such as KalmanNet.
 Authors: Anubhab Ghosh, Antoine Honore, Saikat Chatterjee
 
-[[paper](https://ieeexplore.ieee.org/document/10289946)], [[code](https://github.com/anubhabghosh/danse)]
-
 # Manuscripts
 Unpublished works
 
 ## Convolution based Variational Bayes for Factorial HMM
+
+[[manuscript](https://openreview.net/forum?id=aSTsODJ3On)], [[code](https://github.com/antoinehonore/factorialHMM)]
 
 Abstract: 
 
@@ -63,5 +64,3 @@ We use a continuous state space relaxation of a factorial HMM and propose a conv
 The number of trainable parameters in our model is independent of the length of the input data.
 Our model can accommodate different kinds of emission distributions, simple to complex, such as Gaussian and conditional normalizing flows (CNFs). 
 The proposed model is evaluated for synthetic and real world data modeling and generation.
-
-[[manuscript](https://openreview.net/forum?id=aSTsODJ3On)], [[code](https://github.com/antoinehonore/factorialHMM)]
