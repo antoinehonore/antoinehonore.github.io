@@ -6,4 +6,4 @@ aliases = ["about-me"]
   name = "Antoine"
 +++
 
-- [Machine learning and Data Science teaching material](teaching/machinelearningdatascience.md)
+- [Machine learning and Data Science teaching material](teaching/machinelearningdatascience)
