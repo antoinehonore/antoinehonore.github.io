@@ -27,7 +27,7 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 
 ## ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms
 
-[[paper (submitted to FUSION 2025)]()], [[code](https://github.com/antoinehonore/itnet)]'
+(submitted to FUSION 2025) [[paper]()], [[code](https://github.com/antoinehonore/itnet)]
 
 Abstract: 
 
@@ -35,14 +35,23 @@ Timeseries regression from multimodal data is a difficult task when modalities h
 
 ## Finished
 ### Neonatal sepsis detection
-2018 - 2023
-- 
+
+#### DREs - DWC Research Extraction scripts
+
+[[code](https://github.com/antoinehonore/dres)]
+
+Abstract: 
+
+Data Warehouse Connect (DWC) databases are setup in hospital subnetworks inaccessible to outside research organisations for security reasons. Buying hardware and training inhospital IT staff that can maintain and administrate these databases requires investments not all hospitals can afford. This in turn limits the research that can be performed on the data. To enable data extraction for research for the large number of institutions that use DWC, we developed simple scripts to continuously extract, encrypt and transfer monitor data from DWC.
+
+The scripts are designed to be robust to network interruption and un-expected machine shutdown. 
+It is assumed that standard Windows software are provided on the database servers and intermediade machines. 
+
+
 
 ### DANSE: Data-driven Non-linear State Estimation of Model-free Process in Unsupervised Bayesian Setup 
 
 [[paper](https://ieeexplore.ieee.org/document/10289946)], [[code](https://github.com/anubhabghosh/danse)]
-
-Title: 
 
 Abstract: 
 
@@ -50,7 +59,6 @@ We propose DANSE – a data-driven non-linear state estimation method. DANSE pro
 Authors: Anubhab Ghosh, Antoine Honore, Saikat Chatterjee
 
 # Manuscripts
-Unpublished works
 
 ## Convolution based Variational Bayes for Factorial HMM
 
