@@ -19,9 +19,9 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 
 ## On-going
 
-- **Variant effect predictions**
-
 2023 - 2025
+
+- **Variant effect predictions**
 
 - **Neored**
 
