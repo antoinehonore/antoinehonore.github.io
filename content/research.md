@@ -19,13 +19,13 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 
 ## On-going
 
-### Variant effect predictions
+- **Variant effect predictions**
 2023 - 2025
 
 ## Neored
 2023 - 
 
-## ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms
+- **ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms**
 
 (submitted to FUSION 2025) [paper], [[code](https://github.com/antoinehonore/itnet)]
 
@@ -36,7 +36,7 @@ Timeseries regression from multimodal data is a difficult task when modalities h
 ## Finished
 ### Neonatal sepsis detection
 
-#### DREs - DWC Research Extraction scripts
+- **DREs - DWC Research Extraction scripts**
 
 [[code](https://github.com/antoinehonore/dres)]
 
@@ -49,7 +49,7 @@ It is assumed that standard Windows software are provided on the database server
 
 
 
-### DANSE: Data-driven Non-linear State Estimation of Model-free Process in Unsupervised Bayesian Setup 
+- **DANSE: Data-driven Non-linear State Estimation of Model-free Process in Unsupervised Bayesian Setup**
 
 [[paper](https://ieeexplore.ieee.org/document/10289946)], [[code](https://github.com/anubhabghosh/danse)]
 
@@ -60,7 +60,7 @@ Authors: Anubhab Ghosh, Antoine Honore, Saikat Chatterjee
 
 # Manuscripts
 
-## Convolution based Variational Bayes for Factorial HMM
+- **Convolution based Variational Bayes for Factorial HMM**
 
 [[manuscript](https://openreview.net/forum?id=aSTsODJ3On)], [[code](https://github.com/antoinehonore/factorialHMM)]
 
