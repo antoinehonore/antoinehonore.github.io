@@ -27,7 +27,7 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 
 2023 - 
 
-<center>**ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms**</center>
+**ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms**
 
 
 (submitted to FUSION 2025) [paper], [[code](https://github.com/antoinehonore/itnet)]
