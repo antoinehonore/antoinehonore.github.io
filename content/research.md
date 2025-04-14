@@ -19,14 +19,11 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 
 ## On-going
 
-2023 - 2025
-
 - **Variant effect predictions**
 
 - **Neored**
 
 - **ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms**
-
 
 (submitted to FUSION 2025) [paper], [[code](https://github.com/antoinehonore/itnet)]
 
