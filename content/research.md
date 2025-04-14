@@ -37,7 +37,6 @@ Abstract:
 Timeseries regression from multimodal data is a difficult task when modalities have missing data or different sampling frequencies. Current approaches such as feature fusion often rely on interpolation and might result in either too simplistic or  overly computationally expensive algorithms. We propose ITNet, an end-to-end trainable multihead causal cross-attention model adapted for irregularly sampled multimodal timeseries data. We show the performances of the model on synthetic data from 2d linear state-space models with a varying number of modalities, varying data missingness and varying signal-to-measurement-noise ratio (SMNR). We compare with Kalman filters exploiting either one or all available modalities. Provided a sufficient number of modalities and high enough SMNR, ITNet outperforms the closed form Kalman Filter. Importantly, our model achieves these results without assuming knowledge of the state transition matrix. This is of particular importance towards the use of ITNet for practical cases.
 
 ## Finished
-### Neonatal sepsis detection
 
 - **DREs: DWC Research Extraction scripts**
 
