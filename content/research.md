@@ -25,16 +25,13 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 
 - **Neored**
 
-2023 - 
 
-**ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms**
+- **ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms**
 
 
 (submitted to FUSION 2025) [paper], [[code](https://github.com/antoinehonore/itnet)]
 
-Abstract: 
-
-Timeseries regression from multimodal data is a difficult task when modalities have missing data or different sampling frequencies. Current approaches such as feature fusion often rely on interpolation and might result in either too simplistic or  overly computationally expensive algorithms. We propose ITNet, an end-to-end trainable multihead causal cross-attention model adapted for irregularly sampled multimodal timeseries data. We show the performances of the model on synthetic data from 2d linear state-space models with a varying number of modalities, varying data missingness and varying signal-to-measurement-noise ratio (SMNR). We compare with Kalman filters exploiting either one or all available modalities. Provided a sufficient number of modalities and high enough SMNR, ITNet outperforms the closed form Kalman Filter. Importantly, our model achieves these results without assuming knowledge of the state transition matrix. This is of particular importance towards the use of ITNet for practical cases.
+Abstract: Timeseries regression from multimodal data is a difficult task when modalities have missing data or different sampling frequencies. Current approaches such as feature fusion often rely on interpolation and might result in either too simplistic or  overly computationally expensive algorithms. We propose ITNet, an end-to-end trainable multihead causal cross-attention model adapted for irregularly sampled multimodal timeseries data. We show the performances of the model on synthetic data from 2d linear state-space models with a varying number of modalities, varying data missingness and varying signal-to-measurement-noise ratio (SMNR). We compare with Kalman filters exploiting either one or all available modalities. Provided a sufficient number of modalities and high enough SMNR, ITNet outperforms the closed form Kalman Filter. Importantly, our model achieves these results without assuming knowledge of the state transition matrix. This is of particular importance towards the use of ITNet for practical cases.
 
 ## Finished
 
@@ -42,9 +39,7 @@ Timeseries regression from multimodal data is a difficult task when modalities h
 
 [[code](https://github.com/antoinehonore/dres)]
 
-Abstract: 
-
-Data Warehouse Connect (DWC) databases are setup in hospital subnetworks inaccessible to outside research organisations for security reasons. Buying hardware and training inhospital IT staff that can maintain and administrate these databases requires investments not all hospitals can afford. This in turn limits the research that can be performed on the data. To enable data extraction for research for the large number of institutions that use DWC, we developed simple scripts to continuously extract, encrypt and transfer monitor data from DWC.
+Abstract: Data Warehouse Connect (DWC) databases are setup in hospital subnetworks inaccessible to outside research organisations for security reasons. Buying hardware and training inhospital IT staff that can maintain and administrate these databases requires investments not all hospitals can afford. This in turn limits the research that can be performed on the data. To enable data extraction for research for the large number of institutions that use DWC, we developed simple scripts to continuously extract, encrypt and transfer monitor data from DWC.
 The scripts are designed to be robust to network interruption and un-expected machine shutdown. 
 It is assumed that standard Windows software are provided on the database servers and intermediade machines. 
 
@@ -54,9 +49,7 @@ It is assumed that standard Windows software are provided on the database server
 
 [[paper](https://ieeexplore.ieee.org/document/10289946)], [[code](https://github.com/anubhabghosh/danse)]
 
-Abstract: 
-
-We propose DANSE – a data-driven non-linear state estimation method. DANSE provides a closed-form posterior of the state of a model-free process, given linear measurements of the state in a Bayesian setup, like the celebrated Kalman filter (KF). Non-linear dynamics of the state are captured by data-driven recurrent neural networks (RNNs). The training of DANSE combines maximum-likelihood and gradient-descent in an unsupervised framework, i.e. only measurement data and no process data are required. Using simulated linear and non-linear process models, we demonstrate that DANSE - without knowledge of the process model - provides competitive performance against model-based approaches such as KF, unscented KF (UKF), extended KF (EKF), and a hybrid approach such as KalmanNet.
+Abstract: We propose DANSE – a data-driven non-linear state estimation method. DANSE provides a closed-form posterior of the state of a model-free process, given linear measurements of the state in a Bayesian setup, like the celebrated Kalman filter (KF). Non-linear dynamics of the state are captured by data-driven recurrent neural networks (RNNs). The training of DANSE combines maximum-likelihood and gradient-descent in an unsupervised framework, i.e. only measurement data and no process data are required. Using simulated linear and non-linear process models, we demonstrate that DANSE - without knowledge of the process model - provides competitive performance against model-based approaches such as KF, unscented KF (UKF), extended KF (EKF), and a hybrid approach such as KalmanNet.
 Authors: Anubhab Ghosh, Antoine Honore, Saikat Chatterjee
 
 # Manuscripts
@@ -65,9 +58,7 @@ Authors: Anubhab Ghosh, Antoine Honore, Saikat Chatterjee
 
 [[manuscript](https://openreview.net/forum?id=aSTsODJ3On)], [[code](https://github.com/antoinehonore/factorialHMM)]
 
-Abstract: 
-
-We propose a method to scale factorial Hidden Markov Models (HMMs) to long and complex time series.
+Abstract: We propose a method to scale factorial Hidden Markov Models (HMMs) to long and complex time series.
 Factorial HMMs are suited for time series modeling tasks because of the distributed structure of their latent space.
 We use a continuous state space relaxation of a factorial HMM and propose a convolution-based variational distribution that can be learned with a gradient-based variational expectation-maximization (EM) algorithm.
 The number of trainable parameters in our model is independent of the length of the input data.
