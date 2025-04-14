@@ -25,7 +25,6 @@ I obtained my PhD under the supervision of [Assoc. Prof. Saikat Chatterjee](http
 
 - **Neored**
 
-
 - **ITNet: Irregular Timeseries Data Fusion with Attention Mechanisms**
 
 
@@ -44,23 +43,17 @@ The scripts are designed to be robust to network interruption and un-expected ma
 It is assumed that standard Windows software are provided on the database servers and intermediade machines. 
 
 
-
 - **DANSE: Data-driven Non-linear State Estimation of Model-free Process in Unsupervised Bayesian Setup**
 
 [[paper](https://ieeexplore.ieee.org/document/10289946)], [[code](https://github.com/anubhabghosh/danse)]
 
 Abstract: We propose DANSE – a data-driven non-linear state estimation method. DANSE provides a closed-form posterior of the state of a model-free process, given linear measurements of the state in a Bayesian setup, like the celebrated Kalman filter (KF). Non-linear dynamics of the state are captured by data-driven recurrent neural networks (RNNs). The training of DANSE combines maximum-likelihood and gradient-descent in an unsupervised framework, i.e. only measurement data and no process data are required. Using simulated linear and non-linear process models, we demonstrate that DANSE - without knowledge of the process model - provides competitive performance against model-based approaches such as KF, unscented KF (UKF), extended KF (EKF), and a hybrid approach such as KalmanNet.
-Authors: Anubhab Ghosh, Antoine Honore, Saikat Chatterjee
-
-# Manuscripts
 
 - **Convolution based Variational Bayes for Factorial HMM**
 
 [[manuscript](https://openreview.net/forum?id=aSTsODJ3On)], [[code](https://github.com/antoinehonore/factorialHMM)]
 
 Abstract: We propose a method to scale factorial Hidden Markov Models (HMMs) to long and complex time series.
-Factorial HMMs are suited for time series modeling tasks because of the distributed structure of their latent space.
-We use a continuous state space relaxation of a factorial HMM and propose a convolution-based variational distribution that can be learned with a gradient-based variational expectation-maximization (EM) algorithm.
+Factorial HMMs are suited for time series modeling tasks because of the distributed structure of their latent space. We use a continuous state space relaxation of a factorial HMM and propose a convolution-based variational distribution that can be learned with a gradient-based variational expectation-maximization (EM) algorithm.
 The number of trainable parameters in our model is independent of the length of the input data.
-Our model can accommodate different kinds of emission distributions, simple to complex, such as Gaussian and conditional normalizing flows (CNFs). 
-The proposed model is evaluated for synthetic and real world data modeling and generation.
+Our model can accommodate different kinds of emission distributions, simple to complex, such as Gaussian and conditional normalizing flows (CNFs). The proposed model is evaluated for synthetic and real world data modeling and generation.
