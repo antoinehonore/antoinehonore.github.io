@@ -6,4 +6,5 @@ aliases = ["about-me"]
   name = "Antoine"
 +++
 
-- [Machine learning and Data Science teaching material](teaching/machinelearningdatascience)
+- [Machine learning and Data Science teaching material](teaching/MLDS)
+- [Pattern Recognition and Machine Learning teaching material](teaching/PRML)
